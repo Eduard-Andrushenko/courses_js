@@ -27,7 +27,7 @@ module.exports = {
 			'error',
 			'always'
 		],
-		'no-ununused-vars': [
+		'no-unused-vars': [
 			'warn',
 		]
 	}

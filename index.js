@@ -2,7 +2,7 @@
 
 const category = 'toys';
 
-console.log(`http//someurl/com/$(category)/10`);
+console.log(`http://someurl.com/${category}/10`);
 
 let x = 5;
 
