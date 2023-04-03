@@ -12,7 +12,7 @@ module.exports = {
 	},
 	'rules': {
 		'indent': [
-			'error',
+			'warn',
 			'tab'
 		],
 		'linebreak-style': [
@@ -20,12 +20,15 @@ module.exports = {
 			'windows'
 		],
 		'quotes': [
-			'error',
+			'warn',
 			'single'
 		],
 		'semi': [
 			'error',
 			'always'
+		],
+		'no-ununused-vars': [
+			'warn',
 		]
 	}
 };
