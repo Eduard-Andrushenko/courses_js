@@ -70,3 +70,84 @@ if (humburger === 3 && cola === 1 && frie){
 } else {
 	console.log('We are ready!');
 }
+
+console.log( NaN || null && !3 && undefined || 5);
+
+console.log( 5 === 5 && 3 > 1 || 5);
+
+
+const hamburger = 3;
+const fries = 3;
+const colla = 0;
+const nuggets = 2;
+
+
+if (hamburger === 3 && colla || fries === 3 && nuggets) {
+	console.log('Done!');
+}
+
+
+let hamburgerr;
+const friess = NaN;
+const colaa = 0;
+const nuggetss = 2;
+
+
+if (hamburgerr || colaa || friess === 3 || nuggetss) {
+	console.log('Done!');
+}
+
+let hamburgger;
+const friies = NaN;
+const coola = 0;
+const nuuggets = 2;
+
+
+if (hamburgger && coola || friies === 3 && nuuggets) {
+	console.log('Done!');
+}
+
+
+let numm = 50;
+while (numm <= 55) {
+	console.log(numm);
+	numm++;
+}
+
+
+let buk = 50;
+do {
+	console.log(buk);
+	buk++;
+}
+while (buk <= 60);
+
+for (let i = 1; i < 10; i++){
+	if(i === 6 ){
+		break;
+	}
+	console.log(i);
+}
+
+for (let i = 1; i < 10; i++){
+	if(i === 6 ){
+		continue;
+	}
+	console.log(i);
+}
+
+
+const lines = 5;
+let result = '';
+
+for (let i = 0; i <= lines; i++) {
+	for (let j = 0; j < lines - i; j++) {
+		result += ' ';
+	}
+	for (let j = 0; j < 2 * i + 1; j++) {
+		result += '*';
+	}
+	result += '\n';
+}
+
+console.log(result);
